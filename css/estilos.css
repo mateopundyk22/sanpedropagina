@@ -1,0 +1,27 @@
+.botonNav{
+    color: rgba(0, 100, 0, 0.664);
+    text-decoration:none;
+    font-size: 30px;
+    padding: 10px;
+
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.izquierda {
+    /* background-image: url("../imagenes/logo_sp.jpeg"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img {
+    height: 160px;
+    width: 160px;
+    margin-left: 30px;
+}
+    
