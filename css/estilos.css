@@ -1,8 +1,9 @@
 .botonNav{
-    color: rgba(0, 100, 0, 0.664);
+    color: rgba(0, 100, 0, 0.884);
     text-decoration:none;
-    font-size: 30px;
+    font-size: 36px;
     padding: 10px;
+    font-family: "Zilla Slab";
 
 }
 header{
@@ -10,18 +11,38 @@ header{
     flex-direction: row;
     align-content: center;
     justify-content: space-between;
+    background-color: rgba(156, 235, 156, 0.712);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
 }
 
 .izquierda {
-    /* background-image: url("../imagenes/logo_sp.jpeg"); */
+    background-image: url("../imagenes/logo_sp-removebg-preview.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 150px;
+    width: 170px;
+    margin-left: 30px; 
 }
 
-img {
-    height: 160px;
-    width: 160px;
-    margin-left: 30px;
+
+
+.medio {
+    align-self: center;
+
+
+
+
+}
+.derecha{
+    align-self: center;
+    margin-right: 30px;
+
+
+
+
 }
     
